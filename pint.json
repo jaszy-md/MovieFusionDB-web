@@ -1,0 +1,21 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "ordered_imports": {
+            "sort_algorithm": "length"
+        },
+        "concat_space": {
+            "spacing": "one"
+        },
+        "binary_operator_spaces": {
+            "operators": {
+                "=>": "align_single_space_minimal"
+            }
+        },
+        "not_operator_with_successor_space": false,
+        "cast_spaces": {
+            "space": "none"
+        },
+        "single_blank_line_at_eof": true
+    }
+}
